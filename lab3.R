@@ -100,4 +100,3 @@ for (s in names(params)) {
   x2 <- rnorm(N, mean = p$m2, sd = p$sd2)
   analyze_samples(x1, x2, s)
 }
-
